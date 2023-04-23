@@ -1,7 +1,11 @@
 # Rabota s Git i GitHub
 
  ## 1. Proverka nalichiya ustanovlennogo Git.
- V terminale nabrat komandu: ` git --version `. Esli Git ustanovlen - poyavitsa soobsheniye s info o versii programmi, inache vidast oshibku.
+ V terminale nabrat komandu: 
+ ```
+  git --version 
+  ```
+ Esli Git ustanovlen - poyavitsa soobsheniye s info o versii programmi, inache vidast oshibku.
 
  ## 2. Ustanovka Git
  Zagrujayem poslednuyu versiyu Git s sayta:
@@ -15,18 +19,51 @@ git config --global user.email "your email"
 git config --global user.name "your name"
   ```
 
+  ```
+  NOTE: 
+  dlya proverki etix dannix nujno nabrat komandu:
+  git cinfig --global --list
+  ```
+
   ## 4. Основные команды Git
 
-* git init - инициализация локального репозитория
+* `git init` - инициализация локального репозитория
 
-* git status - получить информацию от git о его текущем состоянии
+* `git status` - получить информацию от git о его текущем состоянии
 
-* git add - добавить файл или файлы к следующему коммиту
+* `git add` - добавить файл или файлы к следующему коммиту
 
-* git commit-m "message" - создание коммита.
+```
+NOTE: 
+mojno viponyat neskolko raz nakaplivaya izmeneniya pered tem, kak zafiksirovat s pomoshyu komandi `git commit` s komentariyem v ` -m"komentariy" 
+```
 
-* git log - вывод на экран истории всех коммитов с их хеш-кодами
+ * `git commit-m "message"` - создание коммита.
 
-* git checkout - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
+```
+NOTE: 
+fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
+git commit -a -m "message", kotoraya vipolyayet 2 komandi:
 
-* git diff - увидеть разницу между текущим файлом и закоммиченным файлом
+ 1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX gde podklyuchen kontrol versiy Git
+ 
+ 2. git commit -m"message" dlya fiksacii i komentariy k nim
+ ```
+
+* `git log` - вывод на экран истории всех коммитов с их хеш-кодами 
+
+```
+NOTE: 
+"git log -oneline"       dlya bolee korotkogo spiska commit-ov
+"git log -oneline -2"    dlya otobrajeniya poslednix 2-x commit-ov
+"git log -oneline -2 -p" pokajet s izmeneniyami mejdu etimi commit-ami
+"git reflog"     dlya otslejivaniya vsex peremesheniy, vklyuchaya "poteryanniye" commit-i
+```
+
+* `git checkout` - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
+```
+NOTE:
+"git switch" - zamenyayet komandu checkout dlya peremesheniy
+```
+
+* `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом

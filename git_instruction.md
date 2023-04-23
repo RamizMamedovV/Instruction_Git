@@ -1,18 +1,20 @@
 # Rabota s Git i GitHub
 
- ## 1. Proverka nalichiya ustanovlennogo Git.
+## 1. NASTROYKA I USTANOVKA
+
+ * A) Proverka nalichiya ustanovlennogo Git.
  V terminale nabrat komandu: 
  ```
   git --version 
   ```
  Esli Git ustanovlen - poyavitsa soobsheniye s info o versii programmi, inache vidast oshibku.
 
- ## 2. Ustanovka Git
+ * B) Ustanovka Git
  Zagrujayem poslednuyu versiyu Git s sayta:
   https://git-scm.com/book/ru/v2 
   Ustanavlivayem s nastroykami po umolchaniyu
 
-  ## 3. Nastoyka Git
+ * C) Nastoyka Git
   Pri pervom ispolzovanii Git, neobxodimo predstavitsa. Dlya etogo v terminale neobxodimo vipolnit komandi:
   ```
 git config --global user.email "your email"
@@ -25,7 +27,7 @@ git config --global user.name "your name"
   git cinfig --global --list
   ```
 
-  ## 4. Основные команды Git
+## 2. OSNOVNIYE KOMANDI Git
 
 * `git init` - инициализация локального репозитория
 
@@ -60,10 +62,14 @@ NOTE:
 "git reflog"     dlya otslejivaniya vsex peremesheniy, vklyuchaya "poteryanniye" commit-i
 ```
 
-* `git checkout` - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
+* `git checkout "hachcode"` - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
 ```
 NOTE:
+"git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
+"git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
 "git switch" - zamenyayet komandu checkout dlya peremesheniy
 ```
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом
+
+

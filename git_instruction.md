@@ -72,4 +72,18 @@ NOTE:
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом
 
+## 3. OSHIBKI I VARIANTI S KOMANDOY HELP
 
+* `git commit (bez -m)`
+```
+NOTE:
+eta komanda 
+```
+* `git help`
+```
+NOTE:
+```
+* `git commit -h`
+```
+NOTE:
+```

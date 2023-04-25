@@ -85,8 +85,6 @@ u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral 
 * `git help`
 ```
 NOTE:
-```
-* `git commit -h`
-```
-NOTE:
+Eta komanda raspechataet vam vse osnovniye komandi.
+No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s comandoy commit
 ```

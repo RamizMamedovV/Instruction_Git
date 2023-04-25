@@ -78,6 +78,7 @@ NOTE:
 ```
 NOTE:
 eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit 
+u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral soxranit i viyti - vse
 ```
 * `git help`
 ```

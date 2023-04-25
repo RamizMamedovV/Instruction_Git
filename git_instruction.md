@@ -65,9 +65,9 @@ NOTE:
 * `git checkout "hachcode"` - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
 ```
 NOTE:
-"git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
-"git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
-"git switch" - zamenyayet komandu checkout dlya peremesheniy
+  "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
+  "git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
+  "git switch" - zamenyayet komandu checkout dlya peremesheniy
 ```
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом

@@ -77,7 +77,7 @@ NOTE:
 * `git commit (bez -m)`
 ```
 NOTE:
-eta komanda 
+eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit 
 ```
 * `git help`
 ```

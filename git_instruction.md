@@ -37,7 +37,7 @@ git config --global user.name "your name"
 
 ```
 NOTE: 
-mojno viponyat neskolko raz nakaplivaya izmeneniya pered tem, kak zafiksirovat s pomoshyu komandi `git commit` s komentariyem v ` -m"komentariy" 
+<git add> mojno vipolnyat neskolko raz nakaplivaya izmeneniya pered tem, kak zafiksirovat s pomoshyu komandi s komentariyem k nemu: <git commit -m"komentariy"> 
 ```
 
  * `git commit-m "message"` - создание коммита.
@@ -50,6 +50,12 @@ git commit -a -m "message", kotoraya vipolyayet 2 komandi:
  1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX gde podklyuchen kontrol versiy Git
  
  2. git commit -m"message" dlya fiksacii i komentariy k nim
+
+ git commit (bez -m)
+eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
+Dlya vixoda bez soxraneniya ":q!" ili ":zq"
+dlya soxraneniya bez vixoda ":w"
+u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral soxranit i viyti - vse
  ```
 
 * `git log` - вывод на экран истории всех коммитов с их хеш-кодами 
@@ -62,7 +68,7 @@ NOTE:
 "git reflog"     dlya otslejivaniya vsex peremesheniy, vklyuchaya "poteryanniye" commit-i
 ```
 
-* `git checkout "hachcode"` - переход от одного коммита к другому git checkout master вернуться к актуальному состоянию и продолжить работу
+* `git checkout "hachcode"` - переход от одного коммита к другому, a <git checkout master> - вернуться к актуальному состоянию и продолжить работу
 ```
 NOTE:
   "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
@@ -72,16 +78,9 @@ NOTE:
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом
 
-## 3. OSHIBKI I VARIANTI S KOMANDOY HELP
+## 3. VARIANTI S KOMANDOY HELP
 
-* `git commit (bez -m)`
-```
-NOTE:
-eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
-Dlya vixoda bez soxraneniya ":q!" ili ":zq"
-dlya soxraneniya bez vixoda ":w"
-u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral soxranit i viyti - vse
-```
+
 * `git help`
 ```
 NOTE:

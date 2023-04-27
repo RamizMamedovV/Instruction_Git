@@ -80,7 +80,13 @@ NOTE:
 
 ## 3. Rabota s vetkami
 
+* `git branch`-посмотреть список веток в репозитории
 
+* `git branch nameOfBranch` - создать ветку "nameOfBranch"
+
+* `git branch -d nameOfBranch` - удалить ветку "nameOfBranch"
+
+* `git checkout nameOfBranch` - переход на ветку"nameOfBranch"
 
 ## 4. VARIANTI S KOMANDOY HELP
 

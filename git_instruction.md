@@ -114,6 +114,7 @@ NOTE:
 ## 4. VARIANTI S KOMANDOY HELP
 
 * `git help`
+
 ```
 NOTE:
 Eta komanda raspechataet vam vse osnovniye komandi.

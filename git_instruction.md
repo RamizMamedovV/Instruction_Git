@@ -124,3 +124,8 @@ No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s c
 ## 5. Ignorirovaniye Faylov
 
 Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom fayl s nazvaniyem: `.gitignore` (mojno eto sdelat s pomoshyu komandi SVC v terminale nabrav komandu `touch .gitignore`) I vnosim v etu papku vse ignoriruemiye fayli, mojno s pomoshyu shablona `*.XXX`, gde XXX- rasshireniye odnotipnix faylov(jpg, png i t.d) 
+
+
+## 6. Strategiya FAST-FORWARD
+Eta stategiya v Git prednaznachena dlya ekonomii pamyati.
+Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop soxraneniya otdelnoy vetki v istorii log graph. 

@@ -78,7 +78,11 @@ NOTE:
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом
 
-## 3. VARIANTI S KOMANDOY HELP
+## 3. Rabota s vetkami
+
+
+
+## 4. VARIANTI S KOMANDOY HELP
 
 
 * `git help`

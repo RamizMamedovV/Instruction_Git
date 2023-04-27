@@ -127,5 +127,5 @@ Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom 
 
 
 ## 6. Strategiya FAST-FORWARD
-Eta stategiya v Git prednaznachena dlya ekonomii pamyati.
+Nastroit ili otmenit ego mojno v nastroykax
 Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop soxraneniya otdelnoy vetki v istorii log graph. 

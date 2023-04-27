@@ -83,7 +83,7 @@ NOTE:
   "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
 
   "git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
-  
+
   "git switch" - zamenyayet komandu checkout dlya peremesheniy
 ```
 
@@ -108,3 +108,7 @@ NOTE:
 Eta komanda raspechataet vam vse osnovniye komandi.
 No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s comandoy commit
 ```
+
+## 5. Ignorirovaniye Faylov
+
+Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom fayl s nazvaniyem: `.gitignore` (mojno eto sdelat s pomoshyu komandi SVC v terminale nabrav komandu `touch .gitignore`) I vnosim v etu papku vse ignoriruemiye fayli, mojno s pomoshyu shablona `*.XXX`, gde XXX- rasshireniye odnotipnix faylov(jpg, png i t.d) 

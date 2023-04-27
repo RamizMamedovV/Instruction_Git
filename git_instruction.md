@@ -1,3 +1,4 @@
+![git_logo](git_logo.png)
 # Rabota s Git i GitHub
 
 ## 1. NASTROYKA I USTANOVKA

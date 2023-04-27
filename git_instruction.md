@@ -63,10 +63,15 @@ u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral 
 
 ```
 NOTE: 
-"git log -oneline"       dlya bolee korotkogo spiska commit-ov
-"git log -oneline -2"    dlya otobrajeniya poslednix 2-x commit-ov
-"git log -oneline -2 -p" pokajet s izmeneniyami mejdu etimi poslednimi dvumya commit-ami
+"git log --oneline"       dlya bolee korotkogo spiska commit-ov
+
+"git log --oneline -2"    dlya otobrajeniya poslednix 2-x commit-ov
+
+"git log --oneline -2 -p" pokajet s izmeneniyami mejdu etimi poslednimi dvumya commit-ami
+
 "git reflog"     dlya otslejivaniya vsex peremesheniy, vklyuchaya "poteryanniye" commit-i
+
+git commit --amend -a -m"izmenyayu posledniy commit"
 ```
 
 * `git checkout "hachcode"` - переход от одного коммита к другому, a <git checkout master> - вернуться к актуальному состоянию и продолжить работу

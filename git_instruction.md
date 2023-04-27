@@ -94,6 +94,10 @@ NOTE:
 ## 3. Rabota s vetkami
 
 * `git branch`-посмотреть список веток в репозитории
+```
+NOTE:
+v spiske tekushaya vetka budet videlena cvetom i oboznachena (*)
+````
 
 * `git branch nameOfBranch` - создать ветку "nameOfBranch"
 

@@ -54,9 +54,12 @@ git commit -a -m "message", kotoraya vipolyayet 2 komandi:
 
  git commit (bez -m)
 eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
+
 Dlya vixoda bez soxraneniya ":q!" ili ":zq"
+
 dlya soxraneniya bez vixoda ":w"
-u menya nastroyen drugoy redaktor!!! ya nabrat message i v verxnem menyu vibral soxranit i viyti - vse
+
+u menya nastroyen drugoy redaktor!!! ya nabral message i v verxnem menyu vibral soxranit i viyti - vse
  ```
 
 * `git log` - вывод на экран истории всех коммитов с их хеш-кодами 
@@ -78,7 +81,9 @@ git commit --amend -a -m"izmenyayu posledniy commit"
 ```
 NOTE:
   "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
+
   "git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
+  
   "git switch" - zamenyayet komandu checkout dlya peremesheniy
 ```
 

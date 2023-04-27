@@ -101,8 +101,9 @@ NOTE:
 
 * `git checkout nameOfBranch` - переход на ветку"nameOfBranch"
 
-## 4. VARIANTI S KOMANDOY HELP
+* `git checkout -b nameOfBranch` - создать ветку и сразу переход на нёё "nameOfBranch"
 
+## 4. VARIANTI S KOMANDOY HELP
 
 * `git help`
 ```

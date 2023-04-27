@@ -139,3 +139,5 @@ Nastroit ili otmenit ego mojno v nastroykax
 Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop soxraneniya otdelnoy vetki v istorii log graph. 
 
 ## Razresheniye konfliktov
+Konfliktami v git nazivayum momenti, kogda pri sliyanii vetok nujno vibrat kakoy variant nujno soxranit? Ostavit variant v osnovnoy vetke, v kotoruyu mergim vetku? Prinyat variant iz novoy vetki? Ili ostavit oba i dodelat uje v osnovnoy vetke?
+V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERGE!

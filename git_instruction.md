@@ -109,7 +109,12 @@ Komanda git branch -D nameOfBranch udalit etu vetku, esli daje v ney ne bilo fik
 
 * `git checkout nameOfBranch` - переход на ветку"nameOfBranch"
 
-* `git checkout -b nameOfBranch` - создать ветку и сразу переход на нёё "nameOfBranch"
+* `git checkout -b newNameOfBranch` - создать ветку и сразу переход на нёё "newNameOfBranch"
+```
+NOTE:
+Mojno takje vospolzovatsa novoy rekomendaciyey git i sovershit sozdaniye i momentalniy perexod odnoy komandoy
+git switch -c newNameOfBranch
+```
 
 * `git merge nameOfBranch` - для слияния ветки
 ```

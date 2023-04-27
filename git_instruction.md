@@ -140,4 +140,7 @@ Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovn
 
 ## Razresheniye konfliktov
 Konfliktami v git nazivayum momenti, kogda pri sliyanii vetok nujno vibrat kakoy variant nujno soxranit? Ostavit variant v osnovnoy vetke, v kotoruyu mergim vetku? Prinyat variant iz novoy vetki? Ili ostavit oba i dodelat uje v osnovnoy vetke?
+```
+NOTE:
 V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERGE!
+```

@@ -95,8 +95,9 @@ NOTE:
 
 * `git branch`-посмотреть список веток в репозитории
 ```
-nothing to add((
-```
+NOTE:
+v spiske tekushaya vetka budet videlena cvetom i oboznachena (*)
+````
 
 * `git branch nameOfBranch` - создать ветку "nameOfBranch"
 

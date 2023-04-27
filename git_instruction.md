@@ -45,21 +45,23 @@ NOTE:
 
 ```
 NOTE: 
-fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
+- Fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
 git commit -a -m "message", kotoraya vipolyayet 2 komandi:
 
  1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX gde podklyuchen kontrol versiy Git
  
  2. git commit -m"message" dlya fiksacii i komentariy k nim
 
- git commit (bez -m)
-eta komanda (posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
+- Komanda: git commit (bez -m)
+(posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
 
 Dlya vixoda bez soxraneniya ":q!" ili ":zq"
 
 dlya soxraneniya bez vixoda ":w"
 
 u menya nastroyen drugoy redaktor!!! ya nabral message i v verxnem menyu vibral soxranit i viyti - vse
+
+- Esli vi nepravilno zacommitili posledniy messaj, to komandoy: git commit --amend -a -m "ispravlyayem posledniy coomit i message" mojno perezapisat ego
  ```
 
 * `git log` - вывод на экран истории всех коммитов с их хеш-кодами 
@@ -108,3 +110,7 @@ NOTE:
 Eta komanda raspechataet vam vse osnovniye komandi.
 No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s comandoy commit
 ```
+
+## 5. Ignorirovaniye Faylov
+
+## 6.

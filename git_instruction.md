@@ -102,6 +102,10 @@ v spiske tekushaya vetka budet videlena cvetom i oboznachena (*)
 * `git branch nameOfBranch` - создать ветку "nameOfBranch"
 
 * `git branch -d nameOfBranch` - удалить ветку "nameOfBranch"
+```
+NOTE:
+Komanda git branch -D nameOfBranch udalit etu vetku, esli daje v ney ne bilo fiksacii - commit
+```
 
 * `git checkout nameOfBranch` - переход на ветку"nameOfBranch"
 

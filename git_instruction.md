@@ -162,19 +162,25 @@ Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s pr
  NOTE:
  - v pravom verxnem uglu (na sayte GitHub) najat "+", zatem vibrat "New repository"
  - v "Repository name*" imenovat ego
- - najat "Greateing repository.."
- - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu. 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
+ - najat "Createing repository.."
+ - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat local repo. punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu. 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
  Vibiraya eti puti nujno vipolnit te komandi, kotoriye tam ukazani.
  ```
 
-* C) Skachat  iz GitHub mojno komandoy `git clone`
-
- 22:30 ili ranshe
+* C) Skachat repo iz GitHub (svoyego ili chujogo accounta) mojno komandoy `git clone`
+```
+NOTE:
+- Eto deystviye mojno proizvodit ne imeya svoyego accounta v GitHub.
+- Mesto, kuda budem skachivat luchshe ne podklyuchat version control, t.e. ne ispolzovat komandu git init i t.d.!!!
+Na str.GitHub (ili svoyego accaunta) najimayem "CODE", daleye kopiruyem <HTTPS cod> i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
+daleye vipolvim "change directory" s pomoshyu komandi "cd nameOfFolder"
+daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX) i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit.
+```
 
 * D)  Zalit svoy repozitoriy na GitHub mojno s pomoshyu komandi `git push`
 ```
 NOTE:
-etu komandu mojno vipolnit esli vi uje proizveli deystviya ukazanniye vishe v punkte 8, A) i podpunkt 2. gde s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)
+etu komandu mojno vipolnit esli vi uje proizveli deystviya ukazanniye vishe "v punkte 8, A) i podpunkt 2." gde s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)
 ```
 
 * E) Vneseniye izmeneniy v fail cherez svoy accaunt mojno pryamo na sayte GitHub 
@@ -185,4 +191,14 @@ dobavit commit i najali "Commit changes"
 zatem v lokalnom ripo nujno nabrat komandu git pull shtobi styanut vse izmeneniya i vipolnit komandu git merge. 
 
 esli ne xotim vipolnyat komandu git merge, to nujno vipolnit komandu git fetch
+```
+
+* F) Uchastvovat v chujom proyekte "Fork"
+```
+NOTE:
+Dlya nachala nujno sozdat polnuyu kopiyu etogo repo na svoyom UDALYONNOM repo (accaunte na sayte GitHub) i daleye rabotat s nim kak so svoim proyektom.
+- Mesto, kuda budem skachivat luchshe ne podklyuchat version control, t.e. ne ispolzovat komandu git init i t.d.!!!
+Na str.GitHub najimayem "CODE", daleye kopiruyem <HTTPS cod> i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
+daleye vipolvim "change directory" s pomoshyu komandi "cd nameOfFolder"
+daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX) i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit. Daleye s pomoshyu git push otpravit snachalo v nash repo i daleye najimayem "Compare & pull request"
 ```

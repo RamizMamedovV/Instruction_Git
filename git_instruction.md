@@ -90,7 +90,7 @@ NOTE:
 
 * `git diff` - увидеть разницу между текущим файлом и закоммиченным файлом
 
-## 3. Rabota s vetkami
+## 3. RABOTA S VETKAMI
 
 * `git branch`-посмотреть список веток в репозитории
 ```
@@ -133,18 +133,21 @@ Eta komanda raspechataet vam vse osnovniye komandi.
 No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s comandoy commit
 ```
 
-## 5. Ignorirovaniye Faylov
+## 5. IGNORIROVANIYE FAYLOV
 
 Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom fayl s nazvaniyem: `.gitignore` (mojno eto sdelat s pomoshyu komandi SVC v terminale nabrav komandu `touch .gitignore`) I vnosim v etu papku vse ignoriruemiye fayli, mojno s pomoshyu shablona `*.XXX`, gde XXX- rasshireniye odnotipnix faylov(jpg, png i t.d) 
 
 
-## 6. Strategiya FAST-FORWARD
+## 6. STRATEGIYA FAST-FORWARD
 Nastroit ili otmenit ego mojno v nastroykax
 Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop soxraneniya otdelnoy vetki v istorii log graph. 
 
-## 7. Razresheniye konfliktov
+## 7. RAZRESHENIYE KONFLIKTOV
 Konfliktami v git nazivayum momenti, kogda pri sliyanii vetok nujno vibrat kakoy variant nujno soxranit? Ostavit variant v osnovnoy vetke, v kotoruyu mergim vetku? Prinyat variant iz novoy vetki? Ili ostavit oba i dodelat uje v osnovnoy vetke?
 ```
 NOTE:
 V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERGE!
 ```
+
+## 8. RABOTA S UDALYONNIM REPOZITORIYEM
+

@@ -46,7 +46,7 @@ NOTE:
 ```
 NOTE: 
 - Fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
-git commit -a -m "message", kotoraya vipolyayet 2 komandi:
+git commit -a -m "message" (mojno vmeste -am), kotoraya vipolyayet 2 komandi:
 
  1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX gde podklyuchen kontrol versiy Git
  
@@ -76,10 +76,9 @@ NOTE:
 
 "git reflog"     dlya otslejivaniya vsex peremesheniy, vklyuchaya "poteryanniye" commit-i
 
-git commit --amend -a -m"izmenyayu posledniy commit"
 ```
 
-* `git checkout "hachcode"` - переход от одного коммита к другому, a <git checkout master> - вернуться к актуальному состоянию и продолжить работу
+* `git checkout "hachcode"` - переход от одного коммита к другому, a `git checkout name_of_branch` - переход от одной ветки на другую
 ```
 NOTE:
   "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"

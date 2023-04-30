@@ -151,3 +151,21 @@ V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERG
 
 ## 8. RABOTA S UDALYONNIM REPOZITORIYEM
 
+```
+NOTE:
+Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s programmoy Git (na vashem kompe) i nastroit udalyonnuyu rabotu s vashim repozitoriyem.
+```
+ A) Neobxodimo zaregistrirovatsa i sozdat svoy account na sayte https://github.com/ 
+
+ B) Skachat chujoy repozitoriy iz GitHub
+
+ 22:30 ili ranshe
+
+ C)  Zalit svoy repozitoriy na GitHub
+ ```
+ NOTE:
+ - v pravom verxnem uglu najat"+", zatem vibrat "New repository"
+ - v "Repository name*" imenovat ego
+ - najat "Greateing repository.."
+ - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat punkt: NASTROYKA I USTANOVKA) k udalyonnomu. 3. "...or import code from another repository" importirovat 
+ ```

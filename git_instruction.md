@@ -155,17 +155,34 @@ V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERG
 NOTE:
 Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s programmoy Git (na vashem kompe) i nastroit udalyonnuyu rabotu s vashim repozitoriyem.
 ```
- A) Neobxodimo zaregistrirovatsa i sozdat svoy account na sayte https://github.com/ 
+* A) Neobxodimo zaregistrirovatsa i sozdat svoy account na sayte https://github.com/
 
- B) Skachat chujoy repozitoriy iz GitHub
+* B) Sozsdat udalyonniy repozitoriy 
+```
+ NOTE:
+ - v pravom verxnem uglu (na sayte GitHub) najat "+", zatem vibrat "New repository"
+ - v "Repository name*" imenovat ego
+ - najat "Greateing repository.."
+ - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu. 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
+ Vibiraya eti puti nujno vipolnit te komandi, kotoriye tam ukazani.
+ ```
+
+* C) Skachat  iz GitHub mojno komandoy `git clone`
 
  22:30 ili ranshe
 
- C)  Zalit svoy repozitoriy na GitHub
- ```
- NOTE:
- - v pravom verxnem uglu najat"+", zatem vibrat "New repository"
- - v "Repository name*" imenovat ego
- - najat "Greateing repository.."
- - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat punkt: NASTROYKA I USTANOVKA) k udalyonnomu. 3. "...or import code from another repository" importirovat 
- ```
+* D)  Zalit svoy repozitoriy na GitHub mojno s pomoshyu komandi `git push`
+```
+NOTE:
+etu komandu mojno vipolnit esli vi uje proizveli deystviya ukazanniye vishe v punkte 8, A) i podpunkt 2. gde s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)
+```
+
+* E) Vneseniye izmeneniy v fail cherez svoy accaunt mojno pryamo na sayte GitHub 
+```
+NOTE:
+vibirayem nujniy fail i najimayem na risunok karandasha v pravom vernem uglu. 
+dobavit commit i najali "Commit changes"
+zatem v lokalnom ripo nujno nabrat komandu git pull shtobi styanut vse izmeneniya i vipolnit komandu git merge. 
+
+esli ne xotim vipolnyat komandu git merge, to nujno vipolnit komandu git fetch
+```

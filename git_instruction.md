@@ -38,7 +38,8 @@ git config --global user.name "your name"
 
 ```
 NOTE: 
-<git add> mojno vipolnyat neskolko raz nakaplivaya izmeneniya pered tem, kak zafiksirovat s pomoshyu komandi s komentariyem k nemu: <git commit -m"komentariy"> 
+<git add> mojno vipolnyat neskolko raz nakaplivaya izmeneniya pered tem, kak zafiksirovat
+s pomoshyu komandi s komentariyem k nemu: <git commit -m"komentariy"> 
 ```
 
  * `git commit-m "message"` - создание коммита.

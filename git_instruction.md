@@ -163,7 +163,7 @@ Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s pr
  - v pravom verxnem uglu (na sayte GitHub) najat "+", zatem vibrat "New repository"
  - v "Repository name*" imenovat ego
  - najat "Createing repository.."
- - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat local repo. punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu. 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
+ - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat local repo. punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu (s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)). 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
  Vibiraya eti puti nujno vipolnit te komandi, kotoriye tam ukazani.
  ```
 

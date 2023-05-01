@@ -47,14 +47,17 @@ s pomoshyu komandi s komentariyem k nemu: <git commit -m"komentariy">
 ```
 NOTE: 
 - Fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
-git commit -a -m "message" (mojno vmeste -am),(etu komandu nelzya ispolzovat pri dobavlenii faila, t.e v samom nachale nujno ispolzovat otdelno git add i git commit -m) kotoraya vipolyayet 2 komandi:
+git commit -a -m "message" (mojno vmeste -am),(etu komandu nelzya ispolzovat pri dobavlenii faila, t.e v samom nachale
+nujno ispolzovat otdelno git add i git commit -m) kotoraya vipolyayet 2 komandi:
 
  1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX v dannoy papre gde podklyuchen kontrol versiy Git
  
  2. git commit -m"message" dlya fiksacii i komentariy k nim
 
 - Komanda: git commit (bez -m)
-(posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit), tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita. Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
+(posle komandi git add ...) perevedyot nas vo vstroenniy redaktor (pri zagruzki Git mojno vibrat ili nastoit),
+tut dlya vvoda nujno nabrat "i" - insert, i nachat vvodit message dlya commita.
+Dlya fiksacii i vixoda nujno najat "ESC" - popadayem na komandnuyu stroku- daleye vvodim ":wq" - gde w - write, q- quit.
 
 Dlya vixoda bez soxraneniya ":q!" ili ":zq"
 
@@ -62,7 +65,8 @@ dlya soxraneniya bez vixoda ":w"
 
 u menya nastroyen drugoy redaktor!!! ya nabral message i v verxnem menyu vibral soxranit i viyti - vse
 
-- Esli vi nepravilno zacommitili posledniy messaj, to komandoy: git commit --amend -a -m "ispravlyayem posledniy coomit i message" mojno perezapisat ego
+- Esli vi nepravilno zacommitili posledniy messaj, to komandoy: git commit --amend -a -m 
+"ispravlyayem posledniy coomit i message" mojno perezapisat ego
  ```
 
 * `git log` - вывод на экран истории всех коммитов с их хеш-кодами 
@@ -84,7 +88,8 @@ NOTE:
 NOTE:
   "git checkout XXXX" gde "XXXX" eto perviye 4 simvola hechcoda, kotoriye mi poluchayem posle comandi "git log"
 
-  "git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke, kotoraya mojet nazivatsa kak "main" tak i "master"
+  "git checkout main" ili "git checkout master" dlya vozvrata na konecho-zafiksirovannoye polojeniye po qlavnoy vetke,
+  kotoraya mojet nazivatsa kak "main" tak i "master"
 
   "git switch" - zamenyayet komandu checkout dlya peremesheniy
 ```
@@ -136,15 +141,22 @@ No esli nabrat git commit -h to git raspechataet vam vse komandi svyazanniye s c
 
 ## 5. IGNORIROVANIYE FAYLOV
 
-Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom fayl s nazvaniyem: `.gitignore` (mojno eto sdelat s pomoshyu komandi SVC v terminale nabrav komandu `touch .gitignore`) I vnosim v etu papku vse ignoriruemiye fayli, mojno s pomoshyu shablona `*.XXX`, gde XXX- rasshireniye odnotipnix faylov(jpg, png i t.d) 
+Tak kak fayli s izobrajeniyami ne prinyato dobavlyat v kontrol versiy, sozdayom fayl s nazvaniyem:
+`.gitignore` (mojno eto sdelat s pomoshyu komandi SVC v terminale nabrav komandu `touch .gitignore`)
+I vnosim v etu papku vse ignoriruemiye fayli, mojno s pomoshyu shablona `*.XXX`,
+gde XXX- rasshireniye odnotipnix faylov(jpg, png i t.d) 
 
 
 ## 6. STRATEGIYA FAST-FORWARD
 Nastroit ili otmenit ego mojno v nastroykax
-Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop soxraneniya otdelnoy vetki v istorii log graph. 
+Esli v otdelnoy vetke proisxodili izmeneniya i fiksirovalis v otlichii ot osnovnoy
+vetki - v takom sluchaye pri ix soyedinenii (merge) proisxodit sliyaniye bez dop
+soxraneniya otdelnoy vetki v istorii log graph. 
 
 ## 7. RAZRESHENIYE KONFLIKTOV
-Konfliktami v git nazivayum momenti, kogda pri sliyanii vetok nujno vibrat kakoy variant nujno soxranit? Ostavit variant v osnovnoy vetke, v kotoruyu mergim vetku? Prinyat variant iz novoy vetki? Ili ostavit oba i dodelat uje v osnovnoy vetke?
+Konfliktami v git nazivayum momenti, kogda pri sliyanii vetok nujno vibrat kakoy variant
+nujno soxranit? Ostavit variant v osnovnoy vetke, v kotoruyu mergim vetku?
+Prinyat variant iz novoy vetki? Ili ostavit oba i dodelat uje v osnovnoy vetke?
 ```
 NOTE:
 V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERGE!
@@ -154,7 +166,8 @@ V LYUBOM SLUCHAYE NE ZABIVAYTE SDELAT COMMIT DLYA SOXRANENIYA POSLE KOMANDI MERG
 
 ```
 NOTE:
-Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s programmoy Git (na vashem kompe) i nastroit udalyonnuyu rabotu s vashim repozitoriyem.
+Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s programmoy Git
+(na vashem kompe) i nastroit udalyonnuyu rabotu s vashim repozitoriyem.
 ```
 * A) Neobxodimo zaregistrirovatsa i sozdat svoy account na sayte https://github.com/
 
@@ -164,7 +177,12 @@ Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s pr
  - v pravom verxnem uglu (na sayte GitHub) najat "+", zatem vibrat "New repository"
  - v "Repository name*" imenovat ego
  - najat "Createing repository.."
- - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal". 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat (smotret vishe, kak mojno sozdat local repo. punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu (s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)). 3. "...or import code from another repository" importirovat code iz drugogo REPO. 
+ - Daleye est vibor: 1. "..or create a new repository...." dlya sozdaniya repository cherez terminal".
+ 2. "...or push an existing repository..." - uje sushestvuyushiy repozitoriy privyazat
+ (smotret vishe, kak mojno sozdat local repo. punkt: NASTROYKA I USTANOVKA) k etomu udalyonnomu repozitoriyu
+ (s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.)
+ i vipolnili komandu git push -u (upstream) origin(nash adress)). 3. "...or import code from another repository"
+ importirovat code iz drugogo REPO. 
  Vibiraya eti puti nujno vipolnit te komandi, kotoriye tam ukazani.
  ```
 
@@ -173,15 +191,19 @@ Git Hub - eto servis kompanii Microsoft kotoraya pozvolyayet integrirovatsa s pr
 NOTE:
 - Eto deystviye mojno proizvodit ne imeya svoyego accounta v GitHub.
 - Mesto, kuda budem skachivat luchshe ne podklyuchat version control, t.e. ne ispolzovat komandu git init i t.d.!!!
-Na str.GitHub (ili svoyego accaunta) najimayem "CODE", daleye kopiruyem <HTTPS cod> i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
+Na str.GitHub (ili svoyego accaunta) najimayem "CODE", daleye kopiruyem <HTTPS cod>
+i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
 daleye vipolvim "change directory" s pomoshyu komandi "cd nameOfFolder"
-daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX) i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit.
+daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX)
+i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit.
 ```
 
 * D)  Zalit svoy repozitoriy na GitHub mojno s pomoshyu komandi `git push`
 ```
 NOTE:
-etu komandu mojno vipolnit esli vi uje proizveli deystviya ukazanniye vishe "v punkte 8, A) i podpunkt 2." gde s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.) i vipolnili komandu git push -u (upstream) origin(nash adress)
+etu komandu mojno vipolnit esli vi uje proizveli deystviya ukazanniye vishe "v punkte 8, A) i podpunkt 2."
+gde s pomoshyu komondi git remote(udalyonniy) svyazali adress origin (imya adresa udalyonnogo repo.)
+i vipolnili komandu git push -u (upstream) origin(nash adress)
 ```
 
 * E) Vneseniye izmeneniy v fail cherez svoy accaunt mojno pryamo na sayte GitHub 
@@ -197,9 +219,13 @@ esli ne xotim vipolnyat komandu git merge, to nujno vipolnit komandu git fetch
 * F) Uchastvovat v chujom proyekte "Fork"
 ```
 NOTE:
-Dlya nachala nujno sozdat polnuyu kopiyu etogo repo na svoyom UDALYONNOM repo (accaunte na sayte GitHub) i daleye rabotat s nim kak so svoim proyektom.
+Dlya nachala nujno sozdat polnuyu kopiyu etogo repo na svoyom UDALYONNOM repo
+(accaunte na sayte GitHub) i daleye rabotat s nim kak so svoim proyektom.
 - Mesto, kuda budem skachivat luchshe ne podklyuchat version control, t.e. ne ispolzovat komandu git init i t.d.!!!
-Na str.GitHub najimayem "CODE", daleye kopiruyem <HTTPS cod> i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
+Na str.GitHub najimayem "CODE", daleye kopiruyem <HTTPS cod> i s pomoshyu komandi git clone ...kod...
+U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
 daleye vipolvim "change directory" s pomoshyu komandi "cd nameOfFolder"
-daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX) i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit. Daleye s pomoshyu git push otpravit snachalo v nash repo i daleye najimayem "Compare & pull request"
+daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX)
+i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit. Daleye s pomoshyu git push
+otpravit snachalo v nash repo i daleye najimayem "Compare & pull request"
 ```

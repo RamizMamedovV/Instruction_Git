@@ -48,7 +48,7 @@ NOTE:
 - Fiksaciya dobavlennix izmeneniy posle komandi  "git add", a takje mojno nabrat komandu: 
 git commit -a -m "message" (mojno vmeste -am), kotoraya vipolyayet 2 komandi:
 
- 1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX gde podklyuchen kontrol versiy Git
+ 1. git add . (s tockoy!)-dlya soxraneniya izmeneniy vo VSEX FAILAX v dannoy papre gde podklyuchen kontrol versiy Git
  
  2. git commit -m"message" dlya fiksacii i komentariy k nim
 

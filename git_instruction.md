@@ -192,7 +192,8 @@ NOTE:
 - Eto deystviye mojno proizvodit ne imeya svoyego accounta v GitHub.
 - Mesto, kuda budem skachivat luchshe ne podklyuchat version control, t.e. ne ispolzovat komandu git init i t.d.!!!
 Na str.GitHub (ili svoyego accaunta) najimayem "CODE", daleye kopiruyem <HTTPS cod>
-i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney.
+i s pomoshyu komandi git clone ...kod... U nas doljna poyavitsa papka s imenem iz repo s temi failami chto bili v ney. 
+A esli cherez probel posle komandi git clone ...kod... NEW_NAME nabrat, to imya papki izmanitsa na NEW_NAME.
 daleye vipolvim "change directory" s pomoshyu komandi "cd nameOfFolder"
 daleye OBYAZATELNO sozdayom novuyu vetku "git branch name" i tam uje sozdat fail (prinyato nazivat README.XX)
 i sozdat te izmeneniya, kotoriye mi xotim predlojit. daleye git add, git commit.

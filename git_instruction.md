@@ -73,6 +73,8 @@ u menya nastroyen drugoy redaktor!!! ya nabral message i v verxnem menyu vibral 
 
 ```
 NOTE: 
+"git log --graph"   dlya pokaza vetok graficheski 
+
 "git log --oneline"       dlya bolee korotkogo spiska commit-ov
 
 "git log --oneline -2"    dlya otobrajeniya poslednix 2-x commit-ov

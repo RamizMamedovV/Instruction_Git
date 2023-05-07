@@ -1,4 +1,4 @@
-## 3. RABOTA S VETKAMI
+##  **RABOTA S VETKAMI**
 
 * `git branch`- <span style = "color: yellow;"> посмотреть список веток в репозитории </span>
 ```
